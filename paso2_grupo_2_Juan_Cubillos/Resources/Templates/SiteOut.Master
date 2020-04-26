@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteOut.Master.cs" Inherits="paso2_grupo_2_Juan_Cubillos.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Cursos UNAD</title>
+	<link rel="stylesheet" type="text/css" href="~/Resources/Styles/StyleSheet.css" />
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+	<style type="text/css">
+		.auto-style1 {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<div>
+			<asp:Image ID="ImageLogo" runat="server" ImageUrl="~/Resources/Images/logoUNAD-HD.jpg" />
+			<br />
+			<br />
+			<b style="mso-bidi-font-weight: normal"><span style="font-size: 11.0pt; line-height: 107%; font-family: &quot; times new roman&quot; ,serif; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: ES-CO; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA – UNAD<br />
+				<span style="font-size: 11.0pt; line-height: 107%; font-family: &quot; times new roman&quot; ,serif; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: ES-CO; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">Escuela Ciencias Básicas, Tecnología e Ingeniería<br />
+				</span></span></b>
+			<br />
+			<br />
+			<br />
+		</div>
+		<div>
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+			</asp:ContentPlaceHolder>
+		</div>
+	</form>
+	<div class="auto-style1">
+		<br />
+		<br />
+		<br />
+		<span style="color: rgb(0, 70, 105); font-family: &quot; open sans&quot; , sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">En Bogotá D.C. (Colombia) Tel:<span>&nbsp;</span></span><a href="tel:0313759500" style="box-sizing: border-box; background-color: rgb(255, 255, 255); color: rgb(205, 117, 49); text-decoration: none; transition: color 400ms ease 0s, background-color 400ms ease 0s; font-family: &quot; open sans&quot; , sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;" target="_blank" title="Bogotá D.C., Colombia">(+57)(1)375 
+		9500<span>&nbsp;</span></a><span style="color: rgb(0, 70, 105); font-family: &quot; open sans&quot; , sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">&nbsp;Línea gratuita nacional:</span><a href="tel:018000115223" style="box-sizing: border-box; background-color: rgb(255, 255, 255); color: rgb(205, 117, 49); text-decoration: none; transition: color 400ms ease 0s, background-color 400ms ease 0s; font-family: &quot; open sans&quot; , sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;" target="_blank" title="Línea gratuita nacional"><span>&nbsp;</span>01 
+		8000 115223</a><br />
+		<span style="color: rgb(0, 70, 105); font-family: &quot; open sans&quot; , sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Institución de Educación Superior sujeta a inspección y vigilancia por el Ministerio de Educación Nacional&nbsp;</span><a href="https://snies.mineducacion.gov.co/consultasnies/verInstitucion?codigo=2102" rel="noopener" style="box-sizing: border-box; background-color: rgb(255, 255, 255); color: rgb(205, 117, 49); text-decoration: none; transition: color 400ms ease 0s, background-color 400ms ease 0s; font-family: &quot; open sans&quot; , sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;" target="_blank" title="Sistema Nacional de Información de la Educación Superior (SNIES)">SNIES 
+		2102</a><br />
+		<strong style="box-sizing: border-box; font-weight: 700; color: rgb(0, 70, 105); font-family: &quot; open sans&quot; , sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">© Copyright UNAD 2020&nbsp;</strong>
+	</div>
+</body>
+</html>
