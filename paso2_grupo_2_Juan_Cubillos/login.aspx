@@ -10,7 +10,6 @@
 					</div>
 					<div class="input-field mb-5">
 						<asp:TextBox ID="TextBoxPassword" placeholder="Password" name="TextBoxPassword" class="validate" TextMode="Password" runat="server"></asp:TextBox>
-						<input placeholder="Password" id="password" name="password" type="password" class="validate">
 					</div>
 					<!--
 					<div class="tm-flex-lr">
