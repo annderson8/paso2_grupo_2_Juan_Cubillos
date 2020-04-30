@@ -95,10 +95,12 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Course.aspx" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\materialize.min.css" />
     <Content Include="css\tooplate.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Evaluation.aspx" />
     <Content Include="Global.asax" />
     <Content Include="img\input-bg-01.jpg" />
     <Content Include="img\input-bg-02.jpg" />
@@ -114,11 +116,25 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Course.aspx.designer.vb">
+      <DependentUpon>Course.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Course.aspx.vb">
+      <DependentUpon>Course.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Evaluation.aspx.designer.vb">
+      <DependentUpon>Evaluation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Evaluation.aspx.vb">
+      <DependentUpon>Evaluation.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">

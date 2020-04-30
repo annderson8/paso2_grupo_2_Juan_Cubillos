@@ -11,50 +11,50 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class _Default
+Partial Public Class Evaluation
 
     '''<summary>
-    '''Control HyperLinkRegister.
+    '''Control RadioButtonQuestionOneA.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents HyperLinkRegister As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents RadioButtonQuestionOneA As Global.System.Web.UI.WebControls.RadioButton
 
     '''<summary>
-    '''Control HyperLinkSignup.
+    '''Control RadioButtonQuestionOneB.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents HyperLinkSignup As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents RadioButtonQuestionOneB As Global.System.Web.UI.WebControls.RadioButton
 
     '''<summary>
-    '''Control HyperLinkLogin.
+    '''Control RadioButtonQuestionOneC.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents HyperLinkLogin As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents RadioButtonQuestionOneC As Global.System.Web.UI.WebControls.RadioButton
 
     '''<summary>
-    '''Control HyperLinkCourse.
+    '''Control RadioButtonQuestionOneD.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents HyperLinkCourse As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents RadioButtonQuestionOneD As Global.System.Web.UI.WebControls.RadioButton
 
     '''<summary>
-    '''Control HyperLinkEvaluation.
+    '''Control ButtonSend.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents HyperLinkEvaluation As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents ButtonSend As Global.System.Web.UI.WebControls.Button
 End Class

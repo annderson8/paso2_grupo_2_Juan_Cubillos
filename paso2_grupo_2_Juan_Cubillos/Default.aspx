@@ -27,10 +27,10 @@
 						<asp:HyperLink ID="HyperLinkLogin" NavigateUrl="~/Login.aspx" class="tm-white-text" runat="server">03. Login</asp:HyperLink>
 					</li>
 					<li class="d-flex justify-content-between align-items-center">
-						<a href="survey.html" class="tm-white-text">04. Survey</a>
+						<asp:HyperLink ID="HyperLinkCourse" NavigateUrl="~/Course.aspx" class="tm-white-text" runat="server">04. Course</asp:HyperLink>
 					</li>
 					<li class="d-flex justify-content-between align-items-center">
-						<a href="application.html" class="tm-white-text">05. Application</a>
+						<asp:HyperLink ID="HyperLinkEvaluation" NavigateUrl="~/Evaluation.aspx" class="tm-white-text" runat="server">05. Evaluation</asp:HyperLink>
 					</li>
 				</ul>
 			</div>
