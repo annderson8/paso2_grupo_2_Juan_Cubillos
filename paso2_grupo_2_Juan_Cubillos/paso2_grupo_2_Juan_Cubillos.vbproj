@@ -138,6 +138,7 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model1.vb</LastGenOutput>
     </Content>
+    <Content Include="Pages\Menu.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Signup.aspx" />
     <Content Include="Web.config" />
@@ -218,6 +219,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Pages\Menu.aspx.designer.vb">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Menu.aspx.vb">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SiteInternal.Master.designer.vb">
+      <DependentUpon>SiteInternal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SiteInternal.Master.vb">
+      <DependentUpon>SiteInternal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="PERSON.vb">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
@@ -277,6 +292,7 @@
     </None>
     <None Include="packages.config" />
     <Content Include="Site.Master" />
+    <Content Include="Pages\SiteInternal.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -286,8 +302,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-    <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

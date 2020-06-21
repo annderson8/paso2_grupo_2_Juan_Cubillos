@@ -1,4 +1,4 @@
-﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="paso2_grupo_2_Juan_Cubillos.Site" %>
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="SiteInternal.master.vb" Inherits="paso2_grupo_2_Juan_Cubillos.SiteInternal" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,13 +9,13 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Courses UNAD</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/materialize.min.css">
-	<link rel="stylesheet" href="css/tooplate.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/materialize.min.css">
+	<link rel="stylesheet" href="../css/tooplate.css">
 </head>
 
 <body id="home">
-	<form id="form" runat="server" timeout="30">
+	<form id="form" runat="server" timeout="30">		
 		<div>
 			<asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
 			</asp:ContentPlaceHolder>

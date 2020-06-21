@@ -1,11 +1,10 @@
-﻿Public Class Evaluation
+﻿Public Class Menu
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
+        If Not Page.User.Identity.IsAuthenticated Then
+            Response.Redirect(FormsAuthentication.LoginUrl)
+        End If
     End Sub
 
-    Protected Sub ButtonSend_Click(sender As Object, e As EventArgs) Handles ButtonSend.Click
-
-    End Sub
 End Class

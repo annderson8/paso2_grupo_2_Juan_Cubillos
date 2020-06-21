@@ -23,6 +23,15 @@ Partial Public Class login
     Protected WithEvents TextBoxUsername As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''Control RequiredFieldValidatorTextBoxUsername.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidatorTextBoxUsername As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
     '''Control TextBoxPassword.
     '''</summary>
     '''<remarks>
@@ -30,6 +39,24 @@ Partial Public Class login
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TextBoxPassword As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control RequiredFieldValidatorTextBoxPassword.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidatorTextBoxPassword As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''Control ButtonLogin.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents ButtonLogin As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''Control HyperLinkRegister.

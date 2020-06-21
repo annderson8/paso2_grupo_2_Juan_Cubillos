@@ -7,15 +7,12 @@
 				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 tm-login-l">
 					<div class="input-field">
 						<asp:TextBox ID="TextBoxUsername" placeholder="Username" name="TextBoxUsername" class="validate" runat="server"></asp:TextBox>
+						<asp:RequiredFieldValidator ID="RequiredFieldValidatorTextBoxUsername" runat="server" ErrorMessage="Username is Required" Text="*" ForeColor="Red" ValidationGroup="Login" ControlToValidate="TextBoxUsername" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
 					</div>
 					<div class="input-field mb-5">
 						<asp:TextBox ID="TextBoxPassword" placeholder="Password" name="TextBoxPassword" class="validate" TextMode="Password" runat="server"></asp:TextBox>
+						<asp:RequiredFieldValidator ID="RequiredFieldValidatorTextBoxPassword" runat="server" ErrorMessage="Password is Required" Text="*" ForeColor="Red" ValidationGroup="Login" ControlToValidate="TextBoxPassword" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
 					</div>
-					<!--
-					<div class="tm-flex-lr">
-						<a href="#" class="white-text small">Forgot Password?</a>
-						<button type="submit" class="waves-effect btn-large btn-large-white px-4 black-text rounded-0">Login</button>
-					</div>-->
 				</div>
 				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 tm-login-r">
 					<header class="font-weight-light tm-bg-black p-5 h-100">
@@ -26,8 +23,11 @@
 			</div>
 			<div class="row">
 				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ml-auto mr-0 text-center">
+					<asp:Button ID="ButtonLogin" class="waves-effect btn-large btn-large-white px-4 tm-border-radius-0" runat="server" Text="Login" ValidationGroup="Login" />
+					&nbsp;
 					<asp:HyperLink ID="HyperLinkRegister" NavigateUrl="~/Register.aspx" class="waves-effect btn-large btn-large-white px-4 black-text rounded-0" runat="server">Create New Account</asp:HyperLink>
 				</div>
 			</div>
 		</div>
+	</div>
 </asp:Content>

@@ -16,8 +16,8 @@
 
     Protected Sub ButtonSignUp_Click(sender As Object, e As EventArgs) Handles ButtonSignUp.Click
         MEntities = New UNADEntities
-        Dim Person As PERSON = SearchPerson(TextBoxEmail.Text, MEntities)
         Try
+            Dim Person As PERSON = SearchPerson(TextBoxEmail.Text, MEntities)
             If Not Person Is Nothing Then
                 If Not ValidateUserName(TextBoxUsername.Text, MEntities) Then
                     If Not EmailAlreadyHasAUser(TextBoxEmail.Text, MEntities) Then
