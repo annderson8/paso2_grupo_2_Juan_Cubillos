@@ -23,6 +23,15 @@ Partial Public Class Register
     Protected WithEvents TextBoxfirst_name As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''Control RequiredFieldValidatorTextBoxfirst_name.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidatorTextBoxfirst_name As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
     '''Control TextBoxlast_name.
     '''</summary>
     '''<remarks>
@@ -41,6 +50,24 @@ Partial Public Class Register
     Protected WithEvents TextBoxEmail As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''Control RequiredFieldValidatorTextBoxEmail.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidatorTextBoxEmail As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''Control RegularExpressionValidatorTextBoxEmail.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RegularExpressionValidatorTextBoxEmail As Global.System.Web.UI.WebControls.RegularExpressionValidator
+
+    '''<summary>
     '''Control TextBoxMobile.
     '''</summary>
     '''<remarks>
@@ -48,6 +75,15 @@ Partial Public Class Register
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TextBoxMobile As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control RegularExpressionValidatorTextBoxMobile.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RegularExpressionValidatorTextBoxMobile As Global.System.Web.UI.WebControls.RegularExpressionValidator
 
     '''<summary>
     '''Control TextBoxAddress.

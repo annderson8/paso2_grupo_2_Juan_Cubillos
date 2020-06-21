@@ -7,7 +7,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Courses UNAD</title>	
+	<title>Courses UNAD</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/materialize.min.css">
@@ -16,15 +16,15 @@
 
 <body id="home">
 	<form id="form" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-    </form>
+		<div>
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+			</asp:ContentPlaceHolder>
+		</div>
+	</form>
 	<footer class="row tm-mt-big mb-3">
 		<div class="col-xl-12 text-center font-weight-light">
 			<p class="d-inline-block tm-bg-black white-text py-2 tm-px-5">
-				Copyright &copy; 2020 UNAD - Group 405021A_762 – 405021_2 - Juan Sebastián Cubillos Gonzalez.             
+				Copyright &copy; 2020 UNAD - Group 405021A_762 – 405021_2             
 			</p>
 		</div>
 	</footer>
