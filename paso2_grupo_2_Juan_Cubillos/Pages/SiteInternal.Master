@@ -7,6 +7,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="-1">
+	<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
 	<title>Courses UNAD</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -15,8 +18,13 @@
 </head>
 
 <body id="home">
-	<form id="form" runat="server" timeout="30">		
+	<form id="form" runat="server" timeout="30">
 		<div>
+			<asp:HyperLink ID="HyperLinkBackToTop" NavigateUrl="~/Pages/Menu.aspx" class="tm-white-text" runat="server">Back to menu</asp:HyperLink>
+			&nbsp;
+			<asp:LoginName ID="LoginName" runat="server" Font-Bold="true" />
+			&nbsp;
+			<asp:LoginStatus ID="LoginStatus" runat="server" />
 			<asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
 			</asp:ContentPlaceHolder>
 		</div>

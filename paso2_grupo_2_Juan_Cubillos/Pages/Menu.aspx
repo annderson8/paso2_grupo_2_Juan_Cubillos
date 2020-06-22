@@ -5,10 +5,7 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="tm-home-left">
-					<h1 class="tm-site-title">Courses UNAD</h1>
-					<asp:LoginName ID="LoginName" runat="server" Font-Bold="true" />
-					&nbsp;
-					<asp:LoginStatus ID="LoginStatus" runat="server" LogoutAction="RedirectToLoginPage" />
+					<h1 class="tm-site-title">Courses UNAD</h1>					
 				</div>
 			</div>
 		</div>

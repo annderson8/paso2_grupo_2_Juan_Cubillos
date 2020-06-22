@@ -3,12 +3,22 @@
 
     Dim MEntities As UNADEntities
 
+    ''' <summary>
+    ''' Initial page event
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Not IsPostBack Then
             CleanForm()
         End If
     End Sub
 
+    ''' <summary>
+    ''' Login button event
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
     Protected Sub ButtonLogin_Click(sender As Object, e As EventArgs) Handles ButtonLogin.Click
         MEntities = New UNADEntities
         If ValidateUser(TextBoxUsername.Text, TextBoxPassword.Text, MEntities) Then
@@ -18,6 +28,13 @@
         End If
     End Sub
 
+    ''' <summary>
+    ''' Function that allows searching the user at the database level
+    ''' </summary>
+    ''' <param name="userName">Username</param>
+    ''' <param name="password">User password</param>
+    ''' <param name="MEntities">DB connection context parameter</param>
+    ''' <returns>Returns a true boolean value in case the user is registered in the system</returns>
     Private Function ValidateUser(userName As String, password As String, MEntities As UNADEntities) As Boolean
         ValidateUser = False
         Dim CountUser = (From u In MEntities.USER Where u.USERNAME = userName And u.PASSWORD = password Select u).Count()

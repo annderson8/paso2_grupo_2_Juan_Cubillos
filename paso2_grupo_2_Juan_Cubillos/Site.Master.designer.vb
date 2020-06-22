@@ -23,6 +23,15 @@ Partial Public Class Site
     Protected WithEvents form As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''Control HyperLinkBackToTop.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents HyperLinkBackToTop As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
     '''Control ContentPlaceHolder.
     '''</summary>
     '''<remarks>
