@@ -21,7 +21,7 @@
 						<asp:HyperLink ID="HyperLinkASPNETCourse" NavigateUrl="~/Pages/CourseASP.aspx" class="tm-white-text" runat="server">ASP.NET Course</asp:HyperLink>
 					</li>
 					<li class="d-flex justify-content-between align-items-center">
-						<asp:HyperLink ID="HyperLinkAmazonCourse" NavigateUrl="" class="tm-white-text" runat="server">Amazon Course</asp:HyperLink>
+						<asp:HyperLink ID="HyperLinkAmazonCourse" NavigateUrl="https://moduloaprendizaje.azurewebsites.net/Amazon.aspx" class="tm-white-text" runat="server" Target="_blank">Amazon Course</asp:HyperLink>
 					</li>
 				</ul>
 			</div>
