@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 120px;
+    background-image:url(Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    height: 50px;
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    background-color: #181818;
+    color: white;
+}
+
+.Unad{
+    width: 200px;
+    height: 130px;
+    float: left;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 28px;
+    padding-top: 45px;
+    color: white;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h3{
+    font-family: sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+.Amazon{
+    width: 200px;
+    height: 130px;
+    padding-top: 10px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.Principal{
+    height: 550px;
+    background-image: url(Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body{
+    background-image: url(Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Uno{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: white;
+   }
+
+.Dos{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: white;
+}
+
+.Tres{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: white;
+}
+
+.Cuatro{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: white;
+}
+
+.Cinco{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: white;
+}
+
+.Seis{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: white;
+}
+
+.Siete{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: white;
+}
+
+.Ocho{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: white;
+}
+
+.Nueve{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: white;
+}
+
+.Diez{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: white;
+}
+
+.Evaluacion{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: white;
+   }
+
+.MenuPrincipal{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    font-family: sans-serif;
+    color: white;
+}

@@ -11,23 +11,14 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Menu
-
+Partial Public Class Unidad3
+    
     '''<summary>
-    '''Control HyperLinkASPNETCourse.
+    '''Control form1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents HyperLinkASPNETCourse As Global.System.Web.UI.WebControls.HyperLink
-
-    '''<summary>
-    '''Control HyperLinkAmazonCourse.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents HyperLinkAmazonCourse As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 End Class
